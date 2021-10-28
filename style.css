@@ -1,0 +1,23 @@
+    body{
+        background-image: url(bg4.jpeg);
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover
+    }
+
+    h1{
+        color: rgb(180, 231, 205); 
+        border: color(3, 15, 15); 
+        text-align: center;
+    }
+
+    p{
+        color:rgb(205, 247, 247); 
+        text-align: center
+    }
+
+    h3{
+        color: rgb(180, 231, 205); 
+        border: color(3, 15, 15); 
+        text-align: center;
+    }
