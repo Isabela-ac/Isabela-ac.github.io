@@ -1,23 +1,115 @@
     body{
-        background-image: url(bg4.jpeg);
-        background-repeat: no-repeat; 
-        background-attachment: fixed; 
-        background-size: cover
+        margin: 0px;
+        padding: 0px;
     }
 
     h1{
         color: rgb(180, 231, 205); 
-        border: color(3, 15, 15); 
         text-align: center;
+        font-family:monospace;
+        font-size: 45px;
     }
 
     p{
         color:rgb(205, 247, 247); 
-        text-align: center
+        text-align: center;
+        inline-size: 900px;
+        font-size: 20px;
+        margin-top: 50px;
+        font-family:serif;
+
     }
 
-    h3{
-        color: rgb(180, 231, 205); 
-        border: color(3, 15, 15); 
-        text-align: center;
+    .intro{
+        padding-top: 70px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: rgb(33, 4, 48);
+        width: 100%;
+        height: 100vh;
     }
+
+    #menu{
+        position: fixed;
+        top: 5px;
+        left: 5px;
+    }
+    .menu{
+        width: 50px;
+        border-radius: 100px;
+    }
+    #menu:hover{
+        pointer-events: fill;
+        opacity: 50%;
+    }
+    #imagem{
+
+        border-radius: 100px;
+    }
+
+    #linked{
+        border-radius: 10px;
+        width: 100px;
+    }
+    #gith{
+        width: 130px;
+    }
+    #gith:hover{
+        pointer-events: fill;
+    }
+    #linked:hover{
+        pointer-events: fill;
+    }
+    .aboutme{
+        width: 100%;
+        background-color: rgb(150, 202, 175);;
+        height: 100vh;
+        align-items: center;
+    }
+    .content{
+        display:inline-flex;
+    }
+    #links{
+        border: 2px solid rgb(83, 57, 90);
+        border-radius: 20px;
+        background-color: rgba(253, 236, 253, 0.226);
+        position: relative;
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+        left: 120px;
+        top: 150px;
+    }
+    #itens{
+        border: 2px solid rgb(83, 57, 90);
+        border-radius: 20px;
+        background-color: rgba(253, 236, 252, 0.226);
+        position: relative;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+        left: 400px;
+        top: 150px;
+    }
+    h3{
+        font-family:monospace;
+        color: rgb(46, 16, 59); 
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    h2{
+        position: relative;
+        left: 450px;
+        top: 30px;
+        color: rgb(46, 16, 59); 
+        font-size: 50px;
+        padding: 0px;
+        margin-top: 0px;
+        font-family: monospace;
+    }
+
+
+
