@@ -9,17 +9,19 @@
   margin-bottom: 20px;
 }
 
-#menu {
+.menu {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding-top: 15px;
   align-content: flex-end;
+  background-color: rgba(240, 255, 255, 0.068);
 }
 
 .navs {
   margin-right: 20px;
-  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
   text-decoration: none;
   font-size: large;
   color: rgb(196, 255, 235);
@@ -35,24 +37,91 @@
   padding: 90px 90px 90px 90px;
 }
 
-#intro {
+#intro,
+#skills-section {
   width: 100%;
   height: 100vh;
 }
 
-h1{
+h1 {
   color: rgb(196, 255, 235);
-  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
   margin-top: 20px;
-  font-size:xx-large;
+  font-size: xx-large;
 }
 
 #about-me {
-    color: rgb(196, 255, 235);
-    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
-    inline-size: 900px;
-    text-align: center;
-    font-size: medium;
+  color: rgb(196, 255, 235);
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
+  inline-size: 900px;
+  text-align: center;
+  font-size: medium;
+  padding-top: 50px;
+  width: 800px;
+}
+
+.skills-img {
+  width: 120px;
+}
+
+#skills {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#skills-section {
+    background-color: rgb(196, 255, 235);
+}
+
+#title-skills {
     padding-top: 50px;
-    width: 800px;
+  color: rgb(68, 68, 68);
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+#content-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-top: 60px;
+}
+
+.skills-itens {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(225, 255, 244);
+  box-shadow: 3px 5px 10px rgb(107, 110, 110);
+}
+
+h4 {
+    color: rgb(14, 31, 30);
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
+}
+
+.navs-skills {
+    margin-right: 20px;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+      Arial, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(14, 31, 30);
+}.menu-skills {
+  background-color: rgba(238, 255, 249, 0.603);
 }
